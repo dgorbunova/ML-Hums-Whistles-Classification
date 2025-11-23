@@ -1,2 +1,11 @@
-data/*
+# ignore raw datasets
+data/MLEndHWII_Sample_400/
+data/MLEndHWII_Sample_800/
+data/*.zip
+
+# allow processed datasets
+!data/processed/
+!data/processed/*.npy
+
+# allow README
 !data/README.md
