@@ -9,3 +9,9 @@ data/*.zip
 
 # allow README
 !data/README.md
+
+
+.DS_Store
+
+# installler for forge
+*.sh
